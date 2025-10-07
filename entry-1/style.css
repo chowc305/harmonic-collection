@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Short+Stack&display=swap');
+
+.boba1{
+  margin: auto;
+  height:300px;
+}
+
+body{
+  color: #18AFF2;
+ font-family: "pangolin";
+   font-weight: 400;
+  font-style: normal;
+ text-align:center;
+
+}
+
+#logo {
+  color: black;
+  text-align: right;
+}
