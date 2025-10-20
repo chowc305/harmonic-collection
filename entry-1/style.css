@@ -7,15 +7,107 @@ body{
    font-weight: 400;
   font-style: normal;
  text-align:center;
-
+ background-image: url("https://i.pinimg.com/736x/1b/e1/3a/1be13a3117b763ace382285f4ac026df.jpg");
+  background-size: center;
+  background-position: repeat;
 }
-
+.note{
+  display: flex;
+  background: url('https://i.pinimg.com/1200x/d5/01/35/d501350256fd06bc601994014f8f28dc.jpg')
+              no-repeat center center / contain;
+  width: 1100px;
+  height: 900px;
+  margin: 0 auto;
+}
 #logo {
   color: black;
   text-align: right;
 }
-
-#shop-img{
+#uluh-logo{
   width: 100px;
-  margin: 0 auto;
+  border-color: #18AFF2;
+  border-style: dashed;
+}
+
+#uluh-shop{
+  width: 300px;
+   border-color: #18AFF2;
+  border-style: dashed;
+}
+
+.title {
+ margin-top:100px;
+ margin-left: 30px;
+}
+
+#summary{
+  width: 130px;
+  margin-left: 70px;
+  margin-top: 100px;
+
+}
+
+.intro{
+  margin-left: -30px;
+  margin-top: 150px;
+}
+
+.part3{
+  margin-top: 90px;
+  margin-left: 70px;
+} 
+
+.square1{
+ 
+  background-color:rgb(230, 197, 250);
+  width: 200px;
+  height: 250px;
+  border-color: #18AFF2;
+  border-style: dashed;
+}
+
+.square2{
+  width: 300px;
+  background-color: khaki;
+   border-color: #18AFF2;
+  border-style: dashed;
+  margin-left: -40px;
+  margin-top: -15px;
+
+}
+
+.square3{
+  width: 200px;
+  height: 200px;
+  background-color:rgb(252, 194, 202);
+   border-color: #18AFF2;
+  border-style: dashed;
+}
+
+#boba-pic{
+
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  margin-top: 140px;
+  border-style: inset solid;
+  border-color: white;
+}
+.worth{
+  margin-top: 100px;
+  width:100px;
+  height: 100px;
+}
+
+
+#city{
+  width:200px;
+  border-style:ridge;
+  border-color: aliceblue;
+  border-width: 5px;
+  margin-top: 100px;
+}
+
+h1{
+  font-size:50px;
 }

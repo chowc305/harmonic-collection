@@ -1,75 +1,165 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Sigmar&display=swap');
 body{
-    font-family: "Molengo", sans-serif;
-    color:#47655c;
-}
-.header{
-    background-color: #47655c;
-    height: 200px;
-    padding: 20px;
-}
-#pic1{
-    width: 200px;
-    margin: auto;
-    position: absolute; 
-    top: 30px; 
-     left: 600px
-   
-}
-#logo{
-    color:blanchedalmond;
-    text-align:right;
-    /* margin: 70px; */
+    background-color: #F5B427;
+  
 }
 
-#pic2{
-     margin: auto;
-    position: absolute; 
-    top: 246px; 
-    left: 100px
-    height: 200px;
-   
+#chloe{
+ font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  color:rgb(19, 85, 184);
+  padding: 20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
-h1{
-    text-align: right;
-    margin:30px 30px 50px 50px;
-    font-size: 50px;
+#lan{
+    width: 170px;
+    margin-left: 600px;
 }
 
-p{
-    text-align: right;
-    margin:30px 100px 50px 50px;
-    font-size: 30px;
+.right{
+     display: flex;
+     width: 1100;
+    flex-direction: row;
+    margin: 0, auto;
+    align-items: center;
+    /* background-color: blanchedalmond; */
+    gap: 150px;
+    margin-top:70px;
 }
 
-h2{
-      text-align: right;
-       font-size: 40px;
-       margin:30px 265px 50px 50px;
+#boba{
+      border-radius: 25px;
+      margin-left:250px;
+      width: 400px;
+      border-color:rgb(19, 85, 184);
+      border-style: solid;
 }
 
-#pic3{
-    width:640px;
-    position: absolute; 
-    top: 700px; 
-    left: 810px
+.desc{
+    margin-top: -140px;
+      font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  color:rgb(19, 85, 184);
+  margin-left: -30px;
 }
 
-#break{
-  font-size: 50px;
-  margin: 30px;
+h3{
+    font-size: 40px;
+    margin-top: -20px;
 }
 
 h4{
-    font-size: 20px;
+    margin-top: 130px;
 }
 
-#review{
-    text-align: left;
-    padding: 0px 40px  0px 80px;
+#add{
+    margin-top: 50px;
+    border-style: solid;
+    border-color:rgb(19, 85, 184);
+    padding: 20px;
+    width: 100px;
+    border-radius: 25px;
+   
+   }
 
+
+.banner{
+background-color: rgb(19, 85, 184);
+width: 1450px;
+margin-left: -10px;
+margin-top: 80px;
+height: 50px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap:20px;
+
+}
+
+#banner-text{
+
+    color: white;
+       font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+}
+
+#banner-logo{
+    width: 50px;
+    
+}
+
+.middle{
+    height: 200px;
+      font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  color:rgb(19, 85, 184);
+}
+
+.second{
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: -80px;
+    width: 1000px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+}
+
+.box1{
+    font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  color:rgb(19, 85, 184);
+  width: 280px;
+  border-style: solid;
+    border-color:rgb(19, 85, 184);
+    border-radius: 25px;
+    padding: 10px;
+    background-color:blanchedalmond
+    
+  
+}
+
+#friends{
+    width:150px;
+    padding: 10px;
+    border-style: solid;
+      border-color:rgb(19, 85, 184);
+}
+
+#multiple{
+    width:150px;
+    padding: 10px;
+    border-style: solid;
+      border-color:rgb(19, 85, 184);
+}
+
+
+    
+
+
+.bottom{
+     height: 400px;
+      font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  color:rgb(19, 85, 184);
+  display: flex;
+  flex-direction: column;
+}
+#textbox{
+    width: 300px;
+    background-color: blanchedalmond;
 }
