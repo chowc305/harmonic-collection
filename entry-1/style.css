@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Short+Stack&display=swap');
 
-.boba1{
-  margin: auto;
-  height:300px;
-}
 
 body{
   color: #18AFF2;
@@ -17,4 +13,9 @@ body{
 #logo {
   color: black;
   text-align: right;
+}
+
+#shop-img{
+  width: 100px;
+  margin: 0 auto;
 }
