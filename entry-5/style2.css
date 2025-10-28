@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Liter&display=swap');
+
+body{
+     background-color: #262626;
+}
+
+h1{
+    font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  color: white;
+  font-size:30px;
+  padding: 10px;
+}
+
+.searchbar{
+     background-color: rgb(88, 88, 88);
+    width: 800px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 25px;
+    color: white;
+      font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    /* background-color: brown; */
+    margin-left:200px;
+    height:800px;
+}
+
+.directory{
+    display:flex;
+    flex-direction: row;
+    /* background-color:rgb(59, 40, 15); */
+    width: 1800px;
+    height: 50px;
+    margin-left:-20px;
+    gap: 8px;
+   
+}
+
+hr{
+    color:rgb(96, 95, 95);
+    border:solid 0.5px;
+    margin-top: -20px;
+}
+
+.directions{
+    color: white;
+      font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 220px;
+  margin-top:-5px;
+    font-weight: bold;
+}
+
+.grey{
+     color:rgb(96, 95, 95);
+      font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:-5px;
+    
+}
+
+
+.story{
+    display: flex;
+    flex-direction: column;
+    /* background-color:burlywood; */
+    width: 700px;
+    height: 500px;
+     font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:14px;
+}
+
+.ask{
+    direction:flex;
+    flex-direction: column;
+     font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:30px;
+
+}
+
+.drink-info{
+    /* background-color: cornflowerblue; */
+    width:400px;
+    height:680px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-left: 1px solid rgb(96, 95, 95);
+       font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#name{
+     color: white;
+    font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-left: 20px;
+  
+}
+
+#pic{
+    width:360px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 18px;
+color:rgb(190, 189, 189);
+
+}
+
+#fake-link{
+font-weight: 200px;
+font-size: 12px;
+color:rgb(190, 189, 189);
+margin-top:-24px;
+margin-left:40px;
+}
+
+#brand{
+    color:rgb(162, 102, 218);
+    margin-top:1px;
+}
+
+#chloe-logo{
+    width:24px;
+border-radius: 30px;
+padding:5px;
+margin-top:-5px;
+}
+
+.love{
+   margin-top:-15px;
+}
+
+.small{
+    margin-top:5px;
+    width:550px;
+}
+
+#drink-text{
+    color:white;
+    font-size: 14px;
+    width:360px;
+    margin-left: 30px;
+
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

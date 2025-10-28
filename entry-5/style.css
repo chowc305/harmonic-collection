@@ -175,8 +175,9 @@ p{
   font-family: "Liter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color:#313030;
+  color:#b0a8a8;
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;

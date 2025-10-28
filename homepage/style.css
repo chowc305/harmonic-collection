@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Ultra&display=swap');
+
+
+body{
+    background-color: rgb(104, 105, 75);
+}
+.map{
+    
+}
+.center{
+    display:flex;
+    background-color: chocolate;
+    margin-top: -30px;
+    margin-right: -40px;
+ justify-content: end;
+ height: 745px;
+ position: fixed;
+}
+
+.left{
+    margin-top: 20px;
+    background-color: rgb(251, 255, 132);
+    width:400px;
+}
+
+.title{
+      font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  padding: 15px;
+   line-height: 1; 
+   color:rgb(43, 173, 158)
+}
+.location{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    gap:70px;
+}
