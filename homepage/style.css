@@ -40,7 +40,7 @@ flex-direction: row;
   object-fit: cover;
 }
 
-.right img{
+.right #map{
     width: 100%;
   height: 100%;
   object-fit: cover;
@@ -140,9 +140,16 @@ h2{
 }
 
 .pin{
-   position: absolute;
-  width: 1%; /* now will actually work */
-  height: 1%;
-  /* transform: translate(-50%, -100%); */
+  position: absolute;
+  top: 40%;     /* vertical position */
+  left: 67%;    /* horizontal position */
+  width: 60px;  /* fixed size, easier to control */
+  height: auto; /* maintain aspect ratio */
   z-index: 10;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pin:hover {
+  transform: scale(1.1);
 }
