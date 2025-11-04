@@ -194,3 +194,13 @@ hr{
     width:240px;
     margin-left: 20px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
