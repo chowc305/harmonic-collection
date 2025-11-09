@@ -61,13 +61,13 @@ margin-top: -5px;
     /* background-color: aqua; */
     width: 1000px;
     height: 40px;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    /* flex-direction: row; */
     margin: 0 auto;
     gap: 40px;
-    /* justify-content: center; */
-    margin-top: -35px;
-    margin-left: 270px;
+    justify-content: center;
+   margin-top: -70px;
+    margin-left: 200px;
     
 }
 
