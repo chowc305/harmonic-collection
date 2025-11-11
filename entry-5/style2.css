@@ -29,10 +29,20 @@ p{
     margin-left: 20px;
 }
 
+#profile{
+    width: 40px;
+    height:40px;
+    margin-left:40vh;
+   margin-top: 34px;
+    
+}
+
 .header{
     display: flex;
     flex-direction: row;
     gap:40px;
+    /* background-color:blueviolet; */
+    
 }
 .container{
     display: flex;
@@ -100,7 +110,12 @@ hr{
   font-weight: 400;
   font-style: normal;
   margin-top:30px;
+  font-size: 18px;
 
+}
+
+.ask p{
+    margin-left:-2px;
 }
 
 .drink-info{
@@ -166,7 +181,8 @@ margin-top:-5px;
 
 .small{
     margin-top:5px;
-    width:550px;
+    width:95%;
+    margin-left:-4px;
 }
 
 #drink-text{
@@ -180,4 +196,40 @@ margin-top:-5px;
 a{
     color:white;
     text-decoration: none;
+}
+
+.ask a:hover{
+text-decoration: underline;
+}
+
+#uluh{
+  position: relative;
+  display: flex;
+  z-index:100;
+}
+
+#uluh img {
+  display: block;
+  width: 300px; /* adjust as needed */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* hidden text initially */
+.overlay-text {
+  
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* lets hover pass through */
+}
+
+/* when hovering on image-container, show text */
+.image-container:hover .overlay-text {
+  opacity: 1;
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Liter&display=swap');
 
 body{
-    background-color: #4B4A4A;
+    background-color: #5A3863;
 }
 
 .top-bar{
@@ -11,15 +11,7 @@ body{
 
 }
 
-#back-arrow{
-    width: 30px;
-    opacity: 0.65;
-}
 
-#front-arrow{
-    width: 30px;
-    opacity: 0.65;
-    transform: rotate(180deg);
 }
 
 #small-circle{
@@ -40,65 +32,30 @@ body{
 #hamburger{
     width:20px;
     height: 20px;
-    margin-top: 16px;
+    margin-top: 14.5px;
+    margin-left: -5px;
+    
     
 }
 
-#white{
-    background-color: rgb(205, 203, 203);
-    width: 30px;
-    height: 30px;
-    margin-left: -35px;
- 
-
-}
-
-#white2{
-    background-color: rgb(205, 203, 203);
-    width: 18px;
-    height: 18px;
-   margin-left: -51px;
-   margin-top:7px;
-   border-radius: 5px;
-   
-}
-
-
-#white3{
-    background-color:rgb(205, 203, 203) ;
-    width:20px;
-    height:20px;
-    margin-top: 16px;
-    margin-left: -40px;
-    z-index: 1;
-    opacity:0.4;
-}
-
-
-#url-text{
-     font-family: "Liter", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:hsl(0, 0%, 72%);
-  font-size: 14px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-#url-bar{
-    background-color: #313030;
-    height: 30px;
-    width: 1000px;
-    margin: 0 auto;
-    border-radius: 15px;
-}
 
 hr{
     opacity: 0.2;
-    margin: 30px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 
 }
 
+
+#homepage{
+  text-decoration: none;
+  color:#E4ABF5;
+}
+
+#homepage:hover{
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+}
 
 .center{
 width: 600px;
@@ -150,13 +107,14 @@ p{
   color:hsl(0, 0%, 100%);
   font-size: 14px;
 }
+
 .underline{
     display: flex;
     flex-direction: row;
     gap: 20px;
     /* background-color: blue; */
     width: 200px;
-    margin-left: 1250px;
+    margin-left: 1220px;
     margin-top: -7px;
 }
 
@@ -164,26 +122,19 @@ p{
   position: relative;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 670px;
-  border-radius:25px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 10px 16px;
-  font-family: "Liter", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color:#b0a8a8;
-}
 
-
-.dropdown:hover .dropdown-content {
+.dropdown:hover  {
   display: block;
+ text-decoration:underline;
 }
 
 .search-icon2{
     width: 25px;
 opacity: 0.5;
+}
+
+#profile{
+  width:30px;
+  height: 30px;
+  margin-top:10px;
 }
