@@ -16,8 +16,6 @@ flex-direction: row;
     background-color:rgb(255, 255, 255);
     width:500px;
     height:100vh;
-    
-   
   display: flex;
   flex-direction: column;
   overflow: hidden; /* prevent the whole left div from scrolling */
@@ -56,13 +54,10 @@ flex-direction: row;
 
 
 h1{
-    padding:10px;
-    font-size:26px;
-    border-style: solid;
-    border-radius: 25px;
+    /* padding:10px; */
+    font-size:36px;
     width: 250px;
-    margin-top:-20px;
-    text-align: start;
+    margin-top:-30px;
     color:#4079bf;
      font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
@@ -71,10 +66,11 @@ h1{
 .topbar{
     padding:40px;
     display:flex;
-     display: inline-flex;
-  align-items: center;  /* vertically centers image and text */
-  justify-content: center; /* centers content horizontally if container is wider */
-  gap: 8px;
+    flex-direction: row;
+  align-items: center;
+  gap:10px;
+  
+
   
 
 }
@@ -133,18 +129,19 @@ h2{
 }
 
 #search{
-  width:26px;
-  margin-left:35px;
-  /* margin-top:12px; */
+  width:40px;
+  margin-left:15px;
+ margin-top:-50px;
+ 
   
 }
 
 .pin{
   position: absolute;
-  top: 40%;     /* vertical position */
-  left: 67%;    /* horizontal position */
-  width: 60px;  /* fixed size, easier to control */
-  height: auto; /* maintain aspect ratio */
+  top: 40%;     
+  left: 67%;   
+  width: 60px;  
+  height: auto; 
   z-index: 10;
   cursor: pointer;
   transition: transform 0.2s ease;
