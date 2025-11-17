@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+
 h1{
      font-family: "UnifrakturMaguntia", cursive;
   font-weight: 400;
@@ -60,29 +61,34 @@ margin-top: -5px;
 .dropdown{
     /* background-color: aqua; */
     width: 1000px;
-    height: 40px;
-    display: inline-flex;
-    /* flex-direction: row; */
-    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     gap: 40px;
-    justify-content: center;
-   margin-top: -70px;
-    margin-left: 200px;
-    
+   
+    justify-items: center;
+     align-items: flex-start; /* aligns to the top */
+  height: 100%;
+  padding-left: 15%; /* distance from the top */
+   
 }
 
-.droptext{
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
+.dropdown p{
+font-family: "PT Serif", serif;
+    font-size: 14px;
+    color: black;
 }
 
 .line{
     width: 1100px;
-    margin-top: -10px;
+    margin: 0 auto;
+    margin-top: -5px;
+    
 }
 .line2{
      width: 1100px;
-     margin-top: -15px;
+     margin: 0 auto;
+     margin-top: 3px;
 }
     
 #first{

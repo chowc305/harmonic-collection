@@ -11,8 +11,9 @@
 body{
     background-image: url('https://media.istockphoto.com/id/1363885185/vector/seamless-graph-paper.jpg?s=612x612&w=0&k=20&c=sfFcWEnjOgaKUDKhmKDEfXM53GaWJpKVIYhqDAvEJfk=')
 }
-.dots{
-    
+
+#top{
+    padding:30px;
 }
 
 .logo-box{
@@ -27,8 +28,15 @@ body{
     top: 10px;
     right:10px;
     border-style: solid;
-   
+    border-color: black;
+ 
 }
+
+.logo-box:hover{
+    transform:translate(0px, 5px);
+}
+
+
 #logo {
     
     color: white;
@@ -97,12 +105,7 @@ h3{
      color:white;
 }
 
-#context{
-    width:800px;
-    margin: 0 auto;
-    padding: 60px;
-    font-size: 30px;
-}
+
 
 .box-2{
      display: flex;
@@ -111,7 +114,8 @@ h3{
     flex-direction: row;
     justify-content: center;
     gap: 60px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;;
+    padding:30px;
 
 }
 
@@ -139,7 +143,7 @@ background-color: #DDB8F2;
 }
 
 .pearl{
-    font-size:25px;
+    font-size:14px;
 }
 
 .pearl-box{
@@ -159,36 +163,32 @@ background-color: #DDB8F2;
 }
 
 .overall-box{
-width:800px;
-    margin: 50px 0px 50px 285px;
+    width: 55em;
+    margin: 0 auto 50px auto;
     padding: 20px;
     background-color: white;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    border-style: dotted;
-    border-width: thick;
+    border-style: solid;
     border-color: #BF391F;
+    
 }
 
 
 
 #overall{
-     width:800px;
+     width:40vw;
     margin: 0 auto;
-    padding:80px;
-    font-size: 30px;
+    padding: 40px;
+    font-size: 18px;
 }
 
 #worth{
+    width: 100%;
     background-color: #BF391F;
     border-style: solid;
-    width: 800px;
-    height 200px;
-    padding: 50px;
     text-align: center;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 14px;
+   padding-top: 20px;
 }
 
 #worth-title{
@@ -196,20 +196,23 @@ width:800px;
     color: white;
 }
 
-#own{
+/* #own{
     padding: 10px;
     text-align: center;
     margin: 0 auto;
-}
+} */
 
-#review-box{
+/* #review-box{
     border-color: #BF391F;
-    border-style: dotted;
-    border-width: thick;
+    border-style: solid;
     width: 800px;
     height: 300px;
     margin: 50px 0px 50px 270px;
     background-color:white;
     padding: 30px;
 
+} */
+
+.audrey p, .chloe p{
+    font-size: 14px;
 }
