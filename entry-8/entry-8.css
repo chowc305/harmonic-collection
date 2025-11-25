@@ -61,7 +61,7 @@
     border-radius: 8px;
     margin-top: 5px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    width850vw;
+    width:850vw;
 }
 
 .searchbar:hover .dropdown-text {
@@ -76,8 +76,8 @@
 
  .masonry {
     margin-top: 2vw;
-    column-count: 5;        /* number of Pinterest-style columns */
-    column-gap: 1vw;        /* spacing between columns */
+    column-count: 5;       
+    column-gap: 1vw;        
     width: 100%;
 }
 
@@ -86,4 +86,43 @@
     margin-bottom: 1vw;
     border-radius: 12px;
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    #pinterest{
+        width: 10vw;
+    }
+
+    #logo{
+        width: 8vw;
+
+    }
+    .searchbar{
+        height: 8vw;
+        
+    }
+    #search{
+        width: 3vw;
+        margin-left: 2vw;
+    }
+
+    .left{
+        width: 8vw;
+        height: 5vw;
+        margin-top: 1vw;
+        margin-left:-2vw;
+    }
+
+    .masonry{
+        margin-top: 2vw;
+    column-count: 2;        /* number of Pinterest-style columns */
+    column-gap: 2vw;
+    row-gap: 2vw;        /* spacing between columns */
+    width: 100%;
+    }
+
+    .dropdown-text{
+        width: 70vw;
+    }
+
 }
