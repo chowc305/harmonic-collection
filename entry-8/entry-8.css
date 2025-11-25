@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+.full{
+    display:flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: flex-start;
+    margin-top: 1vw;
+}
+
+.left{
+    /* background-color: chocolate; */
+  display:flex;
+    flex-direction: column;  
+    width: 5vw;
+    align-items: center;
+    border-right: 1px solid rgb(227, 224, 224);
+       height: 50px;  
+}
+
+.right{
+    /* background-color: cornflowerblue; */
+    display:flex;
+    flex-direction: row;
+    width: 95vw;
+    gap: 2vw;
+    
+}
+
+#pinterest{
+    width: 3vw;
+    margin-top: 0.5vw;
+}
+
+#logo{
+    width:3vw;
+}
+
+.searchbar{
+    background-color: rgb(224, 216, 216);
+     display: flex;          
+    flex-direction: row;    
+    align-items: center;    
+    justify-content: flex-start;
+    gap: 1vw;
+    height: 3vw;
+    width: 94%;
+    border-radius: 15px;
+    font-family:  "Reddit Sans", sans-serif;
+    color: grey;
+     position: relative;
+    cursor: pointer;
+ }
+
+.dropdown-text{
+     display: none;
+    position: absolute;
+    top: 100%;        /* places it directly below */
+    left: 0;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width850vw;
+}
+
+.searchbar:hover .dropdown-text {
+    display: block;
+}
+
+
+ #search{
+     margin-left: 1vw;
+     width: 1vw;
+ }
+
+ .masonry {
+    margin-top: 2vw;
+    column-count: 5;        /* number of Pinterest-style columns */
+    column-gap: 1vw;        /* spacing between columns */
+    width: 100%;
+}
+
+.masonry img {
+    width: 100%;
+    margin-bottom: 1vw;
+    border-radius: 12px;
+    display: block;
+}
