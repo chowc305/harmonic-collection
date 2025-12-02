@@ -29,7 +29,7 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   color: #FFF08C;
+   color: #9c9999;
      font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -38,8 +38,8 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8
 .spinner {
   width: 60px;
   height: 60px;
-  border: 6px solid #ffa8a8;
-  border-top-color: #3B67A6;
+  border: 6px solid #9c9999;
+  border-top-color: #2b2b2c;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
   margin-bottom: 10px;
@@ -55,9 +55,9 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8
 #myButton{
     width: 5vw;
     height: 4vh;
-    color:#FFF08C;
-    background-color: #3B67A6;
-    border: 1px solid #FFF08C;
+    color:#9c9999;
+    background-color: #2b2b2c;
+    border: 1px solid #9c9999;
     display: flex;           
     align-items: center;       
     justify-content: center;   
