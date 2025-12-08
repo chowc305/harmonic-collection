@@ -39,7 +39,7 @@ flex-direction: row;
 }
 
 .right #map{
-    width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
    
@@ -47,7 +47,7 @@ flex-direction: row;
 }
 
 .scroll-text{
-    overflow-y: auto; /* enable vertical scrolling for text only */
+  overflow-y: auto; 
   padding: 1rem;
   flex: 1;
 }
@@ -149,4 +149,18 @@ h2{
 
 .pin:hover {
   transform: scale(1.1);
+}
+
+.search{
+  z-index: 11;
+    position: absolute;
+  top: 4%;     
+  left: 47%; 
+    color:#4079bf;
+     font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 15px;
+  border: solid #4079bf;
 }

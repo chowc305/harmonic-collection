@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(245, 159, 188);
+}
+
+.wrap{
+    position: relative;
+}
+
+ 
+
+#img{
+    display: block;
+    position:relative;
+    width: 36%;
+    margin: 0 auto;
+    margin-top: 5vw;
+    transform: rotate(-15deg);
+    z-index: 5;
+}
+
+#img-back{
+    display: flex;
+    width: 36%;
+    margin: 0 auto;
+    transform: rotate(15deg);
+    
+}
+
+
+#stamp{
+  position: absolute;   
+    width: 4vw;
+    top: 27%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;       
+  pointer-events: none;
+  transition: opacity .3s;
+}
+
+#stamp2{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;       
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp3{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;       
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp4{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp5{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp6{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp7{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp8{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp9{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#stamp10{
+  position: absolute;   
+    width: 4vw;
+    top: 40%;              
+    left: 37vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+
+

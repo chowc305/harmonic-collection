@@ -35,6 +35,15 @@
     width:3vw;
 }
 
+#next{
+    width: 6vw;
+    height:auto;
+    opacity: 0.5 ;
+    margin-top: 15px;
+    
+}
+
+
 .searchbar{
     background-color: rgb(224, 216, 216);
      display: flex;          
@@ -87,6 +96,12 @@
     border-radius: 12px;
     display: block;
 }
+
+#next{
+    width: 10px;
+    height:auto;
+}
+
 
 @media screen and (max-width: 768px) {
     #pinterest{
