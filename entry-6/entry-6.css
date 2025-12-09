@@ -21,7 +21,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 43vw;
+  gap: 40vw;
   width: 100%; 
 }
 
@@ -124,110 +124,175 @@ ad {
 
 
 
-/*
-#toggle-ad:checked ~ .ads {
-  display: block;
-  pointer-events: auto;  /* clickable */
-}
-
-/* #toggle-ad:checked ~ .ads .ad {
-  display: block;
-  animation: popUp 0.5s ease-out forwards;
-}
-
-.ad:nth-child(1) { top: 20%; left: 10%; }
-.ad:nth-child(2) { top: 40%; left: 60%; }
-.ad:nth-child(3) { top: 50%; left: 30%; }
-.ad:nth-child(4) { top: 10%; left: 70%; }
-.ad:nth-child(5) { top: 5%; left: 30%; }
-.ad:nth-child(6) { top: 30%; left: 50%; }
-.ad:nth-child(7) { top: 80%; left: 20%; }
-.ad:nth-child(8) { top: 10%; left: 70%; } */
- */
-
-
-/* Close button */
-/* .chahalo-page .close-btn {
-  position: fixed;
-  top: 20px;
-  right: 25px;
-  width: 35px;
-  height: 35px;
-  border: 2px solid black;
-  border-radius: 50%;
-  background: #fff;
-  cursor: pointer;
-  display: none;
-  text-align: center;
-  line-height: 35px;
-  z-index: 9999;
-  transition: all 0.3s ease;
-} */
-/* 
-.chahalo-page .close-btn img {
-  width: 15px;
-  height: 15px;
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-} */
 
 
 
 
-/* ----------------------------
-   Mobile Responsiveness
----------------------------- */
+
 @media screen and (max-width: 768px) {
+
+.chahalo-page .chahalo-note {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  margin: 4em auto 0 auto;
+  border: 1px solid black;
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40vw;
+  width: 100%;
+}
+
+#logo {
+  width: 5vw;
+  display: block;
+  margin-top: 1vw;
+}
+
+#before {
+  width: 2vw;
+  transform: rotate(180deg);
+  display: block;
+  margin-top: 1vw;
+}
+
+#next {
+  width: 2vw;
+  display: block;
+  margin-top: 1vw;
+}
+
+/* Button */
+.chahalo-page .button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10% auto 0;
+  border: 2px solid black;
+}
+
+.chahalo-page .button:hover {
+  background-color: white;
+  color: black;
+}
+
+.chahalo-page h3 {
+  margin-top: 10%;
+  color: black;
+}
+
+.chahalo-page h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.chahalo-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.chahalo-page a:hover {
+  text-decoration: underline;
+}
+
+/* Random image container */
+#spawnBtn {
+  display: block;
+  margin: 5vw auto 0;
+}
+
+#imageContainer {
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  z-index: 9998;
+}
+
+.random-img {
+  position: absolute;
+  width: 25vw;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  z-index: 9999;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
 
   .chahalo-page .chahalo-note {
     width: 90%;
-    font-size: 11px;
-    margin: 20px auto;
     padding: 20px;
-    height: auto;
+    margin-top: 2em;
   }
 
-  .chahalo-page h1, 
-  .chahalo-page h2 {
-    margin: 0 auto;
+  .chahalo-page h1 {
+    font-size: 32px;
     text-align: center;
   }
-/* 
-  .chahalo-page p {
-    margin-top: 15px;
+
+  .chahalo-page h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  
+  .header {
+    justify-content: space-between;
+    padding: 0px 20px;
+    gap: 0;
+  }
+
+  #logo {
+    width: 22vw;
+    margin-top: 0;
+  }
+
+  #before, 
+  #next {
+    width: 10vw;
+    margin-top: 0;
   }
 
   .chahalo-page .button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px ;
     font-size: 14px;
-   
+    padding: 12px 24px;
+    margin-top: 40px;
+    
   }
 
-.chahalo-page #next {
- width:20px;
- margin-left:260px;
-} */
-
-/* 
-  .chahalo-page .ad {
-    width: 70vw;
-    max-width: 150px;
-    height: auto;
+  .random-img {
+    width: 35vw;
   }
 
-  .chahalo-page .close-btn {
-    top: 3px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
+  #imageContainer {
+    width: 100vw;
+    height: 80vh;
   }
 
-  .chahalo-page .close-btn img {
-    width: 15px;
-    height: 15px;
-    margin-top: 7px;
+  
+  #imageContainer {
+    width: 100vw;     
+    height: 105vh;     
+    transform: none;  
   }
-} */
+
+  .random-img {
+    width: 70vw;       
+  }
+}
+

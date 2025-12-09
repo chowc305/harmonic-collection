@@ -1,11 +1,19 @@
 body{
-    background-color: rgb(245, 159, 188);
+    /* background-color: rgb(245, 159, 188); */
+    background-image: url("https://i.pinimg.com/736x/82/16/5e/82165e15d423cfcc0aa7b9e6a82ca2e2.jpg");
+    
 }
 
 .wrap{
     position: relative;
 }
 
+#logo{
+  position:absolute;
+  top:2vw;
+  left:2vw;
+  width:5vw;
+}
  
 
 #img{
@@ -139,4 +147,19 @@ body{
   transition: opacity .3s;
 }
 
+ @media screen and (max-width: 768px){
+  #logo{
+    width:5em;
+  }
 
+
+  #img{
+    width:18em;
+    margin-top:8em;
+  }
+
+  #img-back{
+     width:18em;
+    margin-top:6em;
+  }
+ }
