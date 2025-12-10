@@ -165,23 +165,53 @@ h2{
   border: solid #4079bf;
 }
 
-.pin-wrapper {
-    position: relative;
-    display: inline-block;
+
+.tooltip {
+  position: absolute;      /* important: absolute so you can place the whole wrapper on the map */
+  top: 40%;                /* same values you used for .pin */
+  left: 67%;
+  transform: translate(-50%, -50%); /* center on the given coords */
+  display: inline-block;
+  z-index: 11;             /* above the map */
+  cursor: pointer;
 }
 
-.hide {
-    display: none;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    background: white;
-    padding: 5px 10px;
-    border: 1px solid black;
-    font-size: 12px;
-    z-index: 9999;
+/* keep pin image sizing, but remove absolute from the image itself */
+.tooltip .pin {
+  display: block;
+  width: 60px;
+  height: auto;
+  transition: transform 0.2s ease;
+  
 }
 
-.pin-wrapper:hover .hide {
-    display: block;
+.tooltip:hover .pin { transform: scale(1.1); }
+
+/* tooltip bubble */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  white-space: nowrap;            
+  background-color: #4079BF;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 4px;
+
+  position: absolute;
+  bottom: 15em;                   /* place above the pin 110% */
+  left: -13em;
+  transform: translateX(-50%);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  pointer-events: none;           /* so the bubble doesn't block hover/click */
+  z-index: 12;
+  font-family: "Parkinsans", sans-serif;
+  font-size: 16px;
+}
+
+/* show on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-4px); /* slight pop-up effect */
 }

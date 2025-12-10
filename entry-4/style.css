@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
-
+html, body{
+ overflow: hidden;
+    height: 100%;
+}
 h1{
      font-family: "UnifrakturMaguntia", cursive;
   font-weight: 400;
@@ -60,11 +61,11 @@ margin-top: -5px;
 }
 .dropdown{
     /* background-color: aqua; */
-    width: 1000px;
+    width: 500vw;
     height: auto;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 4vw;
    
     justify-items: center;
      align-items: flex-start; /* aligns to the top */
@@ -74,6 +75,7 @@ margin-top: -5px;
 }
 
 .dropdown p{
+    margin-left: -1em;
 font-family: "PT Serif", serif;
     font-size: 14px;
     color: black;
@@ -105,7 +107,7 @@ font-family: "PT Serif", serif;
     display: flex;
     flex-direction: row;
     width: 1100px;
-    height: 2000px;
+    height:  100vh;
     /* background-color: blueviolet; */
     margin: 0 auto;
     gap: 40px;
@@ -188,7 +190,7 @@ hr{
     margin-top:-5px;
 }
 
-#head3{
+.head3{
     font-size:25px;
     font-family: "PT Serif", serif;
   font-weight: 400;
@@ -209,4 +211,9 @@ a{
 a:hover{
     text-decoration: underline;
     color: black;
+}
+
+.next{
+    display:block;
+    margin-top: 2em;
 }

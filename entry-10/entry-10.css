@@ -1,7 +1,7 @@
 body{
     /* background-color: rgb(245, 159, 188); */
     background-image: url("https://i.pinimg.com/736x/82/16/5e/82165e15d423cfcc0aa7b9e6a82ca2e2.jpg");
-    
+   cursor:pointer; 
 }
 
 .wrap{
@@ -50,8 +50,8 @@ body{
 #stamp2{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 26%;              
+    left: 42vw;            
     z-index: 6;  
 
     opacity: 0;       
@@ -61,8 +61,8 @@ body{
 #stamp3{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 24%;              
+    left: 48vw;            
     z-index: 6;  
 
     opacity: 0;       
@@ -72,8 +72,8 @@ body{
 #stamp4{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 20%;              
+    left: 54vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -83,8 +83,8 @@ body{
 #stamp5{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 17%;              
+    left: 59vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -94,8 +94,8 @@ body{
 #stamp6{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top:41%;              
+    left: 39vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -105,8 +105,8 @@ body{
 #stamp7{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 39%;              
+    left: 44vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -116,8 +116,8 @@ body{
 #stamp8{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 34%;              
+    left: 50vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -127,8 +127,8 @@ body{
 #stamp9{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 30%;              
+    left: 55vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -138,8 +138,19 @@ body{
 #stamp10{
   position: absolute;   
     width: 4vw;
-    top: 40%;              
-    left: 37vw;            
+    top: 27%;              
+    left: 60vw;            
+    z-index: 6;  
+
+    opacity: 0;        /* start hidden */
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#boba{
+  position: absolute;   
+    width: 60vw;
+    top: 10%;              
+    left: 53vw;            
     z-index: 6;  
 
     opacity: 0;        /* start hidden */
@@ -162,4 +173,71 @@ body{
      width:18em;
     margin-top:6em;
   }
+
+#stamp{
+  width:30px;
+  top: 28vw;
+  left: 22vw;
+}
+
+#stamp2{
+  width:30px;
+  top: 26vw;
+  left: 33vw;
+}
+
+#stamp3{
+  width:30px;
+  top: 20vw;
+  left: 46vw;
+}
+
+#stamp4{
+  width:30px;
+  top: 17vw;
+  left: 57vw;
+}
+
+#stamp5{
+  width:30px;
+  top: 13vw;
+  left: 68vw;
+}
+
+#stamp6{
+  width:30px;
+  top: 38vw;
+  left: 25vw;
+}
+
+#stamp7{
+  width:30px;
+  top: 35vw;
+  left: 37vw;
+}
+
+#stamp8{
+  width:30px;
+  top: 32vw;
+  left: 48vw;
+}
+#stamp9{
+  width:30px;
+  top: 30vw;
+  left: 59vw;
+}
+
+#stamp10{
+  width:30px;
+  top: 28vw;
+  left: 73vw;
+}
+
+#boba{
+  display:block;
+  left: -30vw;
+  top: 50vw;
+  width: 150vw;
+  position: absolute;
+}
  }

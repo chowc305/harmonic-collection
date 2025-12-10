@@ -9,7 +9,8 @@ let stamps = [
     document.getElementById("stamp7"),
     document.getElementById("stamp8"),
     document.getElementById("stamp9"),
-    document.getElementById("stamp10")
+    document.getElementById("stamp10"),
+    document.getElementById("boba")
 ]
 
 let clickCount = 0;
@@ -25,7 +26,7 @@ container.addEventListener("click", function(e) {
     // stamp.style.top = e.offsetY + "px";
 
     // show the stamp
-    stamp.classList.remove("hidden");
+     stamp.style.opacity = 1;
 
     clickCount++;
 });
